@@ -2,8 +2,8 @@
 
 Homebrew tap for EDFbrowser for Apple Silicon Mac.
 
-> [!warning] Silicon chip only
-> Intel-based Macs are not supported.
+> [!IMPORTANT]
+> Silicon chip only. Intel-based Macs are not supported.
 
 ## Installation
 ```bash
