@@ -1,24 +1,12 @@
 # EDFbrowser Tap
 
-Homebrew tap for EDFbrowser for Apple Silicon Mac.
+Homebrew tap for EDFbrowser releases.
 
 > [!IMPORTANT]
 > Silicon chip only. Intel-based Macs are not supported.
 
 ## Installation
 ```bash
-brew tap sjg2203/edfbrowser
-brew install edfbrowser
-```
-
-## Updating
-```bash
-brew update
-brew upgrade edfbrowser
-```
-
-## Uninstalling
-```bash
-brew uninstall edfbrowser
-brew untap sjg2203/edfbrowser
+brew tap sjg2203/edfbrowser https://github.com/sjg2203/EDFbrowser-Tap.git
+brew install sjg2203/edfbrowser/edfbrowser
 ```
