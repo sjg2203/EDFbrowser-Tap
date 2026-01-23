@@ -7,6 +7,6 @@ Homebrew tap for EDFbrowser releases.
 
 ## Installation
 ```bash
-brew tap sjg2203/edfbrowser https://github.com/sjg2203/EDFbrowser-Tap.git
-brew install sjg2203/edfbrowser/edfbrowser
+brew tap sjg2203/tap https://github.com/sjg2203/EDFbrowser-Tap.git
+brew install sjg2203/tap/edfbrowser
 ```
