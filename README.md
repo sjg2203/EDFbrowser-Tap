@@ -1,6 +1,9 @@
-# EDFbrowser Homebrew Tap
+# EDFbrowser Tap
 
-Homebrew tap for EDFbrowser - Apple Silicon native build
+Homebrew tap for EDFbrowser for Apple Silicon Mac.
+
+> [!warning] Silicon chip only
+> Intel-based Macs are not supported.
 
 ## Installation
 ```bash
@@ -19,11 +22,3 @@ brew upgrade edfbrowser
 brew uninstall edfbrowser
 brew untap sjg2203/edfbrowser
 ```
-
-## About
-
-This tap provides an Apple Silicon native build of EDFbrowser, an EDF+ and BDF+ viewer and toolbox.
-
-- Build Source: https://gitlab.com/sjg2203/edfbrowser-silicon
-- Upstream: https://gitlab.com/Teuniz/EDFbrowser
-- Homebrew Tap: https://github.com/sjg2203/homebrew-edfbrowser
