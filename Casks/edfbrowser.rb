@@ -1,6 +1,6 @@
 cask "edfbrowser" do
   version "2.14"
-  sha256 "27bbab8b52ba5fe8f041780f986038bc76aaf77a06327206a1237d89608ea124"
+  sha256 "d775de567fb2e492762f4d15c378b4217e1e80283b7ada31f53cab6c90fbed12"
 
   url "https://gitlab.com/sjg2203/edfbrowser-silicon/-/jobs/artifacts/v#{version}/raw/build_output/EDFbrowser-v#{version}.dmg?job=package_dmg"
   name "EDFbrowser"
