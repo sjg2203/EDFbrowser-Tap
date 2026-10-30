@@ -1,8 +1,8 @@
 cask "edfbrowser" do
-  version "2.15,893"
-  sha256 "5334d31f2a349115cb79a185f9d331b959f340f263bf7592cb566fc97917e4a6"
+  version "2.15,895"
+  sha256 "69810f1406ec6b318acc718af783bfb046f6d5ca8a15def18e9bdf7c996d919e"
 
-  url "https://gitlab.com/-/project/72163637/uploads/ebae169074a4a2187cdf16d20947ec9d/EDFbrowser-v2-15.dmg"
+  url "https://gitlab.com/-/project/72163637/uploads/9ed66b7d59f7494f209f228cacedb6f6/EDFbrowser-2.15.dmg"
   name "EDFbrowser"
   desc "EDF+ and BDF+ viewer and toolbox – Apple Silicon build"
   homepage "https://gitlab.com/sjg2203/edfbrowser-silicon"
