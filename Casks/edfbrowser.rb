@@ -1,8 +1,8 @@
 cask "edfbrowser" do
-  version "2.15"
-  sha256 "ca8911562641cb6db0c42c9bad634747c47f77355d2cc0707b88e065210837bb"
+  version "2.15,893"
+  sha256 "5334d31f2a349115cb79a185f9d331b959f340f263bf7592cb566fc97917e4a6"
 
-  url "https://gitlab.com/sjg2203/edfbrowser-silicon/-/jobs/artifacts/v#{version}/raw/build_output/EDFbrowser-v#{version}.dmg?job=package_dmg"
+  url "https://gitlab.com/-/project/72163637/uploads/ebae169074a4a2187cdf16d20947ec9d/EDFbrowser-v2-15.dmg"
   name "EDFbrowser"
   desc "EDF+ and BDF+ viewer and toolbox – Apple Silicon build"
   homepage "https://gitlab.com/sjg2203/edfbrowser-silicon"
@@ -19,7 +19,7 @@ cask "edfbrowser" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :ventura
+  depends_on macos: :sonoma
 
   app "EDFbrowser.app"
 
